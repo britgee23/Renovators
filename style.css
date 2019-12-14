@@ -21,7 +21,7 @@ p {
   text-align: center;
   color: black;
   border-style: solid;
-  font-size: 40px
+  font-size: 32px
 }
 
 body {
@@ -42,7 +42,7 @@ table {
 td, th {
  border: 1px solid;
  text-align: center;
- padding: 4px;
+ padding: 8px;
 }
 
 footer {
