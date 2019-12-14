@@ -111,3 +111,45 @@ body {
   <p>23 Renovators installs efficient windows, doors, siding, and more in San Antonio & surrounding areas</p>
 </div>
 
+.nav-content {
+	position:absolute;
+	top:70px;
+	overflow:hidden;
+	background-color:#222;
+	max-height:0;
+}
+
+.nav-content a {
+	color:#fff;
+	text-decoration:none;
+}
+
+.nav-content a:hover {
+	text-decoration:underline;
+}
+
+.nav-sub {
+	padding:20px;
+}
+
+.nav-sub ul {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+
+.nav-sub ul li a {
+	display:inline-block;
+	padding:5px 0;
+}
+
+.nav-item:focus {
+	background-color:#444;
+}
+
+.nav-item:focus ~ .nav-content {
+	max-height:400px;
+	-webkit-transition:max-height 0.4s ease-in;
+	-moz-transition:max-height 0.4s ease-in;
+	transition:max-height 0.4s ease-in;
+} 
