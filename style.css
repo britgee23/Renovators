@@ -18,7 +18,8 @@ li a {
 }
 
 p {
-  text-align: left;
+  text-align: center;
+  position:left;
   color: black;
   border-style: solid;
   font-size: 32px
